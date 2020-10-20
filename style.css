@@ -1,0 +1,31 @@
+body {
+  font-family: Nunito;
+  margin: 0;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #848f86;
+  padding: 30px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  height: 667px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
