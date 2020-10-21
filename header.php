@@ -7,10 +7,7 @@
     <title>Fake News</title>
     <link rel="stylesheet" href="style.css">
     <style>
-
-
-
-
+        /* Possibly adding more here later */
     </style>
 
 
