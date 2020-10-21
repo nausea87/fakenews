@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1); //Devide into further PHP
+declare(strict_types=1); //Devide into further PHP?
 $datas = [
     [
         'titles' =>  [
