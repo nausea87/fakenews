@@ -13,11 +13,7 @@ function getArticle(array $articles): string
         return ($article);
 }
 
-function getTitle(array $datas): string
-{
-    foreach ($datas as $data)
-        return ($data['title'][0]); //Faulty
-}
+
 
 
 
