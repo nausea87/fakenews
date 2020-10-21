@@ -1,7 +1,13 @@
 body {
   font-family: Nunito;
   margin: 0;
-  background-color: bisque;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(122, 54, 81, 0.9290091036414566) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,22 +16,10 @@ body {
 
 .container {
   border-radius: 10px;
-  background-color: #848f86;
+  background-color: #a2a3cf;
   padding: 30px;
   width: 375px;
   display: flex;
   flex-direction: column;
   height: 667px;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

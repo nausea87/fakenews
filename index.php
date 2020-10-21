@@ -8,20 +8,78 @@ require __DIR__ . '/header.php';
 
 ?>
 
-<header>
-    <h1>Fake News n' stuff</h1>
-</header>
-<article>
-    <?php include __DIR__ . '/functions.php';
-    getArticles([]);
-    ?>
-</article>
+
+<box class="container">
+
+    <header>
+        <h1>Fake News n' stuff yo!</h1>
+    </header>
+
+
+    <article>
+
+        <?php include __DIR__ . '/functions.php';
+
+        echo getArticle($articles);
+        ?>
+
+    </article>
 
 
 
 
-<footer>
-    <small>Derp</small>
-</footer>
 
-<?php require __DIR__ . '/footer.php'; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <small>Derp</small>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <?php require __DIR__ . '/footer.php'; ?>

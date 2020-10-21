@@ -1,10 +1,10 @@
 <?php
 
-declare(strict_types=1);
-$data = [
+declare(strict_types=1); //Devide into further PHP
+$datas = [
     [
         'titles' =>  [
-            '1',
+            '33 year old Glenneth finds record huge mushroom',
             '2',
             '3',
             '4',
