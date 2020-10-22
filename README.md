@@ -1,15 +1,22 @@
 # fakenews
 
 <html>
-<head></head>
+<head>
+<style>
+    * {
+        background-color: tomato;
+    }
+</style>
+</head>
 
 <body>
 <h2>
-<li>1. Have data in arrays</li>
-<li>2. arrays into functions.php</li>
-<li>3. functions.php into index.php</li>
-<li>4. ???</li>
-<li>5. Profit!</li>
+<li> Have data in arrays</li>
+<li> arrays into functions.php</li>
+<li> functions.php into index.php</li>
+<li> ???</li>
+<li> Profit!</li>
+<br>
 </h2>
 </body>
 
