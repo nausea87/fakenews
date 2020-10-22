@@ -1,3 +1,5 @@
 # fakenews
 
-Upd#1: Testing Git add,commit, push again.
+Arrays into functions.php, functions.php into index. And so forth.
+
+Carpe Diem osv.
