@@ -13,7 +13,7 @@
 <br>
 </h2>
 <br>
- <img src="fakenews/trollface_PNG13.png"></img>
+ <img src="./trollface_PNG13.png">
 
 </body>
 
