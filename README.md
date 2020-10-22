@@ -1,13 +1,7 @@
 # fakenews
 
 <html>
-<head>
-<style>
-    body {
-        background-color: tomato;
-    }
-</style>
-</head>
+<head>Epic master plan:</head>
 
 <body>
 <h2>
