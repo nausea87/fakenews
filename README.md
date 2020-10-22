@@ -13,7 +13,7 @@
 <br>
 </h2>
 <br>
- <a href="trollface_PNG13.png"></a>
+ <img src="trollface_PNG13.png">
 
 </body>
 
