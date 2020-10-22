@@ -3,7 +3,7 @@
 <html>
 <head>
 <style>
-    * {
+    body {
         background-color: tomato;
     }
 </style>
