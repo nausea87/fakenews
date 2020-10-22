@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/header.php';
+include __DIR__ . '/functions.php';
 
 // This is the file where you can keep your HTML markup. We should always try to
 // keep us much logic out of the HTML as possible. Put the PHP logic in the top
@@ -9,21 +10,31 @@ require __DIR__ . '/header.php';
 ?>
 
 
-<box class="container">
-
+<div class="container">
     <header>
-        <h1>Fake News n' stuff yo!</h1>
+        <h2>Man finds worlds largest mushroom</h2>
     </header>
-
-
     <article>
+        Av: <?php echo getArticle($authors); ?>
+        <div class="text-placeholder">
 
-        <?php include __DIR__ . '/functions.php';
+            <?php echo getArticle($articles); ?>
 
-        echo getArticle($articles);
-        ?>
 
+        </div>
     </article>
+</div>
+
+<div class="container">
+    <header>
+        <h2>Man finds worlds largest mushroom</h2>
+    </header>
+    <article>
+        <div class="text-placeholder">
+            <?php echo getArticle($articles); ?>
+        </div>
+    </article>
+</div>
 
 
 
@@ -33,53 +44,4 @@ require __DIR__ . '/header.php';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer>
-        <small>Derp</small>
-    </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <?php require __DIR__ . '/footer.php'; ?>
+<?php require __DIR__ . '/footer.php'; ?>

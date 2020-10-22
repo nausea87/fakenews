@@ -7,7 +7,9 @@
     <title>Fake News</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Possibly adding more here later */
+        * {
+            box-sizing: border-box;
+        }
     </style>
 
 

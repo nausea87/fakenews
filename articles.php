@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 $articles = [
+
     "-I was like...Herrejävlar, that's huge. I mean, look at it! I'm gonna make fuck
      tons of...Ah, svampmacka you know? Bread in the stekpanna, butter and shrooms.",
 
