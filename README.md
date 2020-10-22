@@ -1,4 +1,4 @@
-# fakenews
+# FAKENEWS!
 
 <html>
 <head>Epic master plan:</head>
