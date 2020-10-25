@@ -16,11 +16,13 @@ $articles = [
     [
         'title' => 'Man from Gothenburg finds worlds largest mushroom',
         'published_date' => '2020-10-18 06:59',
-        'content' => 'I was like...Herrejävlar, that/s a huge mushroom änna. I mean, look at it! I/m gonna make f**k
+        'content' => 'I was like...Herrejävlar, that is a huge mushroom änna. I mean, look at it! I am gonna make f**k
             tons of...Ah, svampmacka you know? Bread in the stekpanna, butter and shrooms.
             Some salt och pepper. Very tasy.',
         'id' => 1,
         'likes' => '69',
+        'dislikes' => '37',
+        'img' => '/images/mushroom.jpg',
         'author' => 'Björk Janlund', //Mushroom (1)
     ],
 
@@ -33,7 +35,9 @@ $articles = [
             Once there was a huge fu**ing geting who flew away with my bacon from a cesarsallad.
             Rätt coolt ändå, because the bacon was much bigger than the geting.',
         'id' => 1,
-        'likes' => '1.3',
+        'likes' => '3',
+        'dislikes' => '9',
+        'img' => '',
         'author' => 'Björk Janlund',
     ],
 
@@ -45,6 +49,8 @@ $articles = [
             Much bigger. Much, much bigger. Probably a thousand times bigger than Russia I reckon.',
         'id' => 2,
         'likes' => '20',
+        'dislikes' => '420',
+        'img' => '',
         'author' => 'Annie Rööf',
     ],
 
@@ -54,6 +60,8 @@ $articles = [
         'content' => 'A, nämen I like boats I guess. In greece they have some boats. What more is there to say?',
         'id' => 2,
         'likes' => '1337',
+        'dislikes' => '69',
+        'img' => '',
         'author' => 'Annie Rööf',
     ],
 
@@ -65,6 +73,8 @@ $articles = [
             threat of the neighbouring country on Norway',
         'id' => 3,
         'likes' => '29',
+        'dislikes' => '1',
+        'img' => '',
         'author' => 'Immie Jåkesson',
     ],
 
@@ -79,6 +89,8 @@ $articles = [
          of dust suspended in a sunbeam and billions upon billions upon billions upon billions upon billions upon billions upon billions.',
         'id' => 3,
         'likes' => '27',
+        'dislikes' => '37',
+        'img' => '',
         'author' => 'Immie Jåkesson',
     ],
 
@@ -97,6 +109,8 @@ $articles = [
         billions upon billions upon billions upon billions upon billions upon billions.',
         'id' => 4,
         'likes' => '25',
+        'dislikes' => '44',
+        'img' => '',
         'author' => 'Tonald Drump',
     ],
 
@@ -110,6 +124,8 @@ $articles = [
         Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites. An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud. It’s about making placeholder text great again. That’s what people want, they want placeholder text to be great again.',
         'id' => 4,
         'likes' => '3',
+        'dislikes' => '15',
+        'img' => '',
         'author' => 'Tonald Drump',
     ],
 
@@ -119,6 +135,8 @@ $articles = [
         'content' => 'Some people have an ability to write placeholder text... It/s an art you/re basically born with. You either have it or you don/t. Look at these words. Are they small words? And he referred to my words - if they/re small, something else must be small. I guarantee you there/s no problem, I guarantee.',
         'id' => 5,
         'likes' => '12',
+        'dislikes' => '4',
+        'img' => '',
         'author' => 'Cill Blinton',
     ],
 
@@ -128,6 +146,8 @@ $articles = [
         'content' => '',
         'id' => 5,
         'likes' => '55',
+        'dislikes' => '22',
+        'img' => '',
         'author' => 'Cill Blinton',
     ],
 
