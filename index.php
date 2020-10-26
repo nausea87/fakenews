@@ -3,12 +3,13 @@ require __DIR__ . '/header.php';
 require __DIR__ . '/functions.php';
 
 ?>
-<div class="container">
-    <h2>
-        <div class="header">FAKENEWS!</header>
-    </h2>
 
-    <div class="separator"></div>
+<main class="container">
+    <nav class="navbar">BAJS </nav>
+    <h1 class="header">FAKENEWS!</h1>
+    <hr>
+
+
     <?php usort($articles, 'date_compare'); ?>
     <?php foreach ($articles as $article) : ?>
         <?php
@@ -22,42 +23,42 @@ require __DIR__ . '/functions.php';
         $image = $article['img']; ?>
 
 
-        <div class="headlines">
+        <h2 class="title">
             <?= $title; ?>
-        </div>
+        </h2>
 
-        <div class="news">
+        <article class="content">
             <?= shortenText($content); ?>
-
-
-            <!--expand--->
             <button class="button">Read more</button>
-            <!---Button to expand--->
-            <br>
+            <!---Perhaps link to full article and img?--->
+        </article>
 
-            <?= $image; ?>
-            <br>
-            <div class="author">
-                <?= $author; ?>
-                <?= $date; ?>
-            </div>
-
-            <br>
-            <?= $likes; ?>
-            &#10084;&#65039;
-            <?= $dislikes; ?>
-            &#128545;
-
-
+        <div class="author">
+            <?= $author; ?>
+            <?= $date; ?>
         </div>
-        <br>
-        <div class="separator"></div>
+
+        <hr class="likes">
+        <?= $likes; ?>
+        &#10084;&#65039;
+        <?= $dislikes; ?>
+        &#128545;
+        </hr>
+
+
+
+
+
 
 
     <?php endforeach ?>
 
 
-</div>
+
+
+
+
+</main>
 
 
 
