@@ -2,44 +2,30 @@
 
 declare(strict_types=1);
 
-require __DIR__ . '/articles.php';
-require __DIR__ . '/authors.php';
+
 require __DIR__ . '/data.php';
 
-// TODO : Functions 'working' but not really working.
-// You know what I mean? Hmm? Good.
-
-function getAuthor(array $authors)
+function getArticleById(array $articles, int $id): array
 {
-    foreach ($authors as $author)
-        return $author;
+    foreach ($articles as $article) {
+        if ($article['id'] === $id) {
+            return $article;
+        }
+    }
 }
 
-// TODO: Fix proper function here you fucking twat.
-function getTitle(array $data): array
+function date_compare(array $element1, array  $element2): int
 {
-    foreach ($data['titles'] as $title)
-        return $title[0];
+    $datetime1 = strtotime($element1['published_date']);
+    $datetime2 = strtotime($element2['published_date']);
+    return $datetime2 - $datetime1;
 }
 
-function getArticle(array $articles)
+function shortenText(string $text, $chars = 400): string
 {
-    foreach ($articles as $article)
-        return $article;
+    $text = $text . " ";
+    $text = substr($text, 0, $chars);
+    $text = substr($text, 0, strrpos($text, ' '));
+    $text = $text . "...";
+    return $text;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// This is the file where you can keep all your functions. Remember to NOT
-// execute/run any functions in this file. Keep it dumb.

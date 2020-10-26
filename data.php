@@ -22,7 +22,7 @@ $articles = [
         'id' => 1,
         'likes' => '69',
         'dislikes' => '37',
-        'img' => '/images/mushroom.jpg',
+        'img' => '',
         'author' => 'Björk Janlund', //Mushroom (1)
     ],
 
@@ -132,7 +132,7 @@ $articles = [
     [
         'title' => 'Trump attacks Molly, 5',
         'published_date' => '2020-10-19 06:17',
-        'content' => 'Some people have an ability to write placeholder text... It/s an art you/re basically born with. You either have it or you don/t. Look at these words. Are they small words? And he referred to my words - if they/re small, something else must be small. I guarantee you there/s no problem, I guarantee.',
+        'content' => 'Some people have an ability to write placeholder text. It is an art you/re basically born with. You either have it or you don/t. Look at these words. Are they small words? And he referred to my words - if they/re small, something else must be small. I guarantee you there/s no problem, I guarantee.',
         'id' => 5,
         'likes' => '12',
         'dislikes' => '4',
@@ -143,7 +143,9 @@ $articles = [
     [
         'title' => 'Pickles to cause cancer, new study claims',
         'published_date' => '2020-10-19 14:12',
-        'content' => '',
+        'content' => 'Scientists at Eslöv University has, after doing some science, found
+        that cucumbers might cause different forms of cancer.',
+
         'id' => 5,
         'likes' => '55',
         'dislikes' => '22',

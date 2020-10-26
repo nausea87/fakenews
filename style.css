@@ -1,34 +1,8 @@
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 0;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(122, 54, 81, 0.9290091036414566) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 55%;
+  }
 }
 
-.container {
-  border-radius: 10px;
-  background-color: #a2a3cf;
-  padding: 30px;
-  width: 375px;
-  flex-direction: column;
-  height: 667px;
+.separator {
 }
-
-.text-placeholder {
-  background-color: rgb(164, 187, 236);
-  border-radius: 5px;
-  height: 80px;
-  width: 100%;
-  margin: 20px 0;
-}
-
-/* More stuffs */
