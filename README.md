@@ -5,9 +5,8 @@
 
 <body>
 <h2>
-<li> Have data in arrays</li>
-<li> arrays into functions.php</li>
-<li> functions.php into index.php</li>
+<li> Clone repo</li>
+<li> Open index.php</li>
 <li> ???</li>
 <li> Profit!</li>
 <br>
