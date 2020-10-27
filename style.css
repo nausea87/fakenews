@@ -10,16 +10,10 @@ body {
     rgba(138, 229, 247, 1) 0%,
     rgba(222, 230, 232, 1) 100%
   );
+
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-}
-
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px;
 }
 
 .navbar {
@@ -29,43 +23,62 @@ body {
   width: 100%;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: chocolate;
-  color: black;
-}
-
-.header-container {
-}
-
 .header {
+  background-image: url(images/mushroom.jpg);
+  background-size: contain;
+  height: 90px;
 }
 
 .container {
+  display: table;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 50%;
+  width: 600px;
+  border: solid black 2px;
 }
 
 .title {
+  margin-left: 2mm;
+  margin-right: 2mm;
   font-size: larger;
   text-decoration: underline;
+  transition: transform 0.4s ease;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(130px);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0) scale(1);
+  }
+  100% {
+    transform: rotate(360deg) scale(3);
+  }
 }
 
 .content {
+  margin-left: 2mm;
+  margin-right: 2mm;
+  /* animation: move;
+  animation-duration: 3000s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite; */
 }
 
 .button {
+  /*animation: rotate;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;*/
 }
 
 hr.rounded {
@@ -75,6 +88,6 @@ hr.rounded {
 
 @media screen and (max-width: 700px) {
   html {
-    font-size: 75%;
+    font-size: 85%;
   }
 }
