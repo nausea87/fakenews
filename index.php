@@ -5,8 +5,9 @@ require __DIR__ . '/functions.php';
 ?>
 
 <main class="container">
-    <nav class="navbar">BAJS </nav>
-    <h1 class="header">FAKENEWS!</h1>
+
+    <nav class="navbar">QUIZ</nav>
+    <h1 class="header">FAKENEWS! FAKENEWS! FAKENEWS!</h1>
     <hr>
 
 
@@ -27,23 +28,29 @@ require __DIR__ . '/functions.php';
             <?= $title; ?>
         </h2>
 
+
+
+
         <article class="content">
             <?= shortenText($content); ?>
             <button class="button">Read more</button>
             <!---Perhaps link to full article and img?--->
+
+            <br>
+
+            <div class="author">
+                <?= $author; ?>
+                <?= $date; ?>
+            </div>
+
+            <div class="likes">
+                <?= $likes; ?>
+                &#10084;&#65039;
+                <?= $dislikes; ?>
+                &#128545;
+            </div>
+            <hr>
         </article>
-
-        <div class="author">
-            <?= $author; ?>
-            <?= $date; ?>
-        </div>
-
-        <hr class="likes">
-        <?= $likes; ?>
-        &#10084;&#65039;
-        <?= $dislikes; ?>
-        &#128545;
-        </hr>
 
 
 
