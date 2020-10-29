@@ -5,10 +5,8 @@
 
 <body>
 <h2>
-<li> Clone repo</li>
+<li> Clone the repository</li>
 <li> Open index.php</li>
-<li> ???</li>
-<li> Profit!</li>
 <br>
 </h2>
 <br>
