@@ -8,13 +8,12 @@ require __DIR__ . '/functions.php';
 
     <nav class="navbar">
         <p>
-            <a href="https://jagtrycktefelju.nu/quiz.html"> - - Dagens quiz!</a>
-            - - Slut på olja i Norge! - - Olof Palme funnen vid liv! - -
+            <a>BREAKING NEWS: </a>
         </p>
 
     </nav>
     <h1 class="header">
-        <img src="header2.png"></img>
+        <img src="/images/header2.png"></img>
     </h1>
     <hr>
 
