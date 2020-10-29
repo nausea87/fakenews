@@ -61,7 +61,7 @@ $articles = [
         'id' => 2,
         'likes' => '1337',
         'dislikes' => '69',
-        'img' => '',
+        'img' => 'images/boat.jpg',
         'author' => 'Annie Rööf',
     ],
 

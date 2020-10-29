@@ -6,8 +6,16 @@ require __DIR__ . '/functions.php';
 
 <main class="container">
 
-    <nav class="navbar">QUIZ</nav>
-    <h1 class="header">FAKENEWS! FAKENEWS! FAKENEWS!</h1>
+    <nav class="navbar">
+        <p>
+            <a href="https://jagtrycktefelju.nu/quiz.html"> - - Dagens quiz!</a>
+            - - Slut på olja i Norge! - - Olof Palme funnen vid liv! - -
+        </p>
+
+    </nav>
+    <h1 class="header">
+        <img src="header2.png"></img>
+    </h1>
     <hr>
 
 
@@ -33,14 +41,16 @@ require __DIR__ . '/functions.php';
 
         <article class="content">
             <?= shortenText($content); ?>
+            <br><br>
             <button class="button">Read more</button>
             <!---Perhaps link to full article and img?--->
 
-            <br>
+            <br></br>
 
             <div class="author">
                 <?= $author; ?>
                 <?= $date; ?>
+                <?= $image; ?>
             </div>
 
             <div class="likes">

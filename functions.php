@@ -21,7 +21,7 @@ function date_compare(array $element1, array  $element2): int
     return $datetime2 - $datetime1;
 }
 
-function shortenText(string $text, $chars = 400): string
+function shortenText(string $text, $chars = 300): string
 {
     $text = $text . " ";
     $text = substr($text, 0, $chars);
