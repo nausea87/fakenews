@@ -8,9 +8,10 @@ $authors = [
     ['name' => 'Immie Jåkesson', 'id' => 3],
     ['name' => 'Tonald Drump', 'id' => 4],
     ['name' => 'Cill Blinton', 'id' => 5],
+    // Even using this yo? 
 
 ];
-
+// TODO: Fix Image
 $articles = [
 
     [
@@ -23,7 +24,7 @@ $articles = [
         'likes' => '69',
         'dislikes' => '37',
         'img' => '',
-        'author' => 'Björk Janlund', //Mushroom (1)
+        'author' => 'Björk Janlund',
     ],
 
     [
