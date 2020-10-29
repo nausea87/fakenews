@@ -14,6 +14,7 @@ require __DIR__ . '/functions.php';
     </nav>
     <h1 class="header">
         <img src="/images/header2.png"></img>
+        <!---Header made in Figma--->
     </h1>
     <hr>
 
