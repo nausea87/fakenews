@@ -2,34 +2,24 @@
 
 declare(strict_types=1);
 
-$authors = [
-    ['name' => 'Björk Janlund', 'id' => 1],
-    ['name' => 'Annie Rööf', 'id' => 2],
-    ['name' => 'Immie Jåkesson', 'id' => 3],
-    ['name' => 'Tonald Drump', 'id' => 4],
-    ['name' => 'Cill Blinton', 'id' => 5],
-    // Even using this yo? 
-
-];
-// TODO: Fix Image
 $articles = [
 
     [
-        'title' => 'Man from Gothenburg finds worlds largest mushroom',
-        'published_date' => '2020-10-18 06:59',
+        'title' => 'Bloke from Gothenburg finds worlds largest shroom',
+        'published_date' => '2020-10-30 06:59',
         'content' => 'I was like...Herrejävlar, that is a huge mushroom änna. I mean, look at it! I am gonna make f**k
             tons of...Ah, svampmacka you know? Bread in the stekpanna, butter and shrooms.
             Some salt och pepper. Very tasy.',
         'id' => 1,
         'likes' => '69',
         'dislikes' => '37',
-        'img' => '',
+        'img' => '/images/mushroom.jpg',
         'author' => 'Björk Janlund',
     ],
 
     [
         'title' => 'Henrik, 33 about his latest trip to Greece',
-        'published_date' => '2020-10-18 08:29',
+        'published_date' => '2020-10-20 08:29',
         'content' => 'Yeah I like Greece you know, very hot and also good Feta you know?
             I recommend this place alot, you can have beer in the pool, but there/s en jävla massa
             getingar your know? Getings? They fly around and you might get sticken.
@@ -38,31 +28,31 @@ $articles = [
         'id' => 1,
         'likes' => '3',
         'dislikes' => '9',
-        'img' => '',
+        'img' => '/images/greece.jpg',
         'author' => 'Björk Janlund',
     ],
 
     [
         'title' => 'Carl-Jennys guide to the stars',
-        'published_date' => '2020-10-18 11:09',
+        'published_date' => '2020-10-23 11:09',
         'content' => 'Yeah I usually go to Thailand to look at space. Pretty cool.
             I mean, imagine Russia. Pretty jävla big huh? Then you think about space...
             Much bigger. Much, much bigger. Probably a thousand times bigger than Russia I reckon.',
         'id' => 2,
         'likes' => '20',
         'dislikes' => '420',
-        'img' => '',
+        'img' => '/images/space.jpg',
         'author' => 'Annie Rööf',
     ],
 
     [
         'title' => 'Henrik goes on a boat trip',
-        'published_date' => '2020-10-18 12:59',
+        'published_date' => '2020-10-22 12:59',
         'content' => 'A, nämen I like boats I guess. In greece they have some boats. What more is there to say?',
         'id' => 2,
         'likes' => '1337',
         'dislikes' => '69',
-        'img' => 'images/boat.jpg',
+        'img' => '/images/boat.jpg',
         'author' => 'Annie Rööf',
     ],
 
@@ -71,7 +61,7 @@ $articles = [
         'published_date' => '2020-10-18 14:55',
         'content' => 'Next month, Sweden is expected to finish their work on their first nuclear missile.
             According to prime minister Stefan Lööven one big factor in this project has been the growing
-            threat of the neighbouring country on Norway',
+            threat of the neighbouring country of Norway',
         'id' => 3,
         'likes' => '29',
         'dislikes' => '1',
@@ -80,14 +70,12 @@ $articles = [
     ],
 
     [
-        'title' => 'Sunbeams and stars',
+        'title' => '2021 to be postponed',
         'published_date' => '2020-10-18 18:49',
-        'content' => 'Vanquish the impossible star stuff harvesting star light dispassionate extraterrestrial 
-         observer stirred by starlight tingling of the spine rich in heavy atoms. Preserve and cherish that pale 
-         blue dot rings of Uranus something incredible is waiting to be known the ash of stellar alchemy network of wormholes 
-         not a sunrise but a galaxyrise. Made in the interiors of collapsing stars courage of our questions at the edge of 
-         forever preserve and cherish that pale blue dot with pretty stories for which there/s little good evidence a mote 
-         of dust suspended in a sunbeam and billions upon billions upon billions upon billions upon billions upon billions upon billions.',
+        'content' => 'Due to the global Covid situation world leaders
+        have now agreed on postponing 2021 until 2022. The news have been
+        welcomed worldwide due to the general opinion of 2020 being total
+        crap.',
         'id' => 3,
         'likes' => '27',
         'dislikes' => '37',

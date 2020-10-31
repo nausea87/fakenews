@@ -1,3 +1,5 @@
+/* TODO's written as comments */
+
 body {
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -6,24 +8,26 @@ body {
     rgba(138, 229, 247, 1) 0%,
     rgba(222, 230, 232, 1) 100%
   );
-
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  margin: 2rem;
 }
 
 .navbar {
   background-color: rgb(224, 176, 104);
   position: relative;
   width: 100%;
+  /* Fix better look and size */
 }
 
-/* .navbar p {
+.navbar p {
   animation: move;
   animation-duration: 7s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
-} */
+} /* Fix better animation */
 
 .header {
   background-size: contain;
@@ -36,17 +40,15 @@ body {
   display: table;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 600px;
+  height: 20vh;
+  width: 500px;
   border: solid black 2px;
 }
 
 .title {
-  margin-left: 2mm;
-  margin-right: 2mm;
-  font-size: larger;
-  text-decoration: underline;
-  transition: transform 0.4s ease;
+  margin-left: 2rem;
+
+  font-size: x-large;
 }
 
 @keyframes move {
@@ -54,41 +56,23 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(130px);
-  }
-  0% {
-    transform: translateX(0px);
-  }
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0) scale(1);
-  }
-  100% {
-    transform: rotate(360deg) scale(3);
-  }
+    transform: translateX(240px);
+  } /* Improve keyframes */
 }
 
 .content {
-  margin-left: 2mm;
-  margin-right: 2mm;
-  /* animation: move;
-  animation-duration: 3000s;
-  animation-fill-mode: forwards;
-  animation-direction: alternate;
-  animation-iteration-count: infinite; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
 }
 
-.button {
-  /* animation: rotate;
-  animation-duration: 3s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite; */
+.img {
+  padding: 1rem;
+  width: 10%;
 }
 
 hr.rounded {
-  border-top: 8px solid #bbb;
+  border-top: 10px solid #bbb;
   border-radius: 5px;
 }
 
@@ -96,4 +80,4 @@ hr.rounded {
   html {
     font-size: 85%;
   }
-}
+} /* More practice on this.

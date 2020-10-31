@@ -8,7 +8,7 @@ require __DIR__ . '/functions.php';
 
     <nav class="navbar">
         <p>
-            <a>BREAKING NEWS: </a>
+            <a>BREAKING NEWS: Norge slut på Olja!</a>
         </p>
 
     </nav>
@@ -34,23 +34,22 @@ require __DIR__ . '/functions.php';
 
         <h2 class="title">
             <?= $title; ?>
+
         </h2>
 
 
 
-
         <article class="content">
-            <?= shortenText($content); ?>
-            <br><br>
-            <button class="button">Read more</button>
-            <!---Perhaps link to full article and img?--->
+            <?= $content; ?>
 
-            <br></br>
+
+            <br><br>
+            <img class src="<?= $article['img'] ?>" width="60%">
 
             <div class="author">
                 <?= $author; ?>
                 <?= $date; ?>
-                <?= $image; ?>
+
             </div>
 
             <div class="likes">
