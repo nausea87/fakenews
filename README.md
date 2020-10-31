@@ -32,4 +32,4 @@ TODO:
 ### Testers
 
 1. Agnes Binett
-2.
+2. Joacim Johansson
