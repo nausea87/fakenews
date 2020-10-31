@@ -2,8 +2,9 @@
 
 1. \$ git clone this repository.
 2. Start a local host on your computer.
-   using 'php -S localhost:8000'.
+   using the standard 'php -S localhost:8000'.
 3. Open index.php in your browser.
+4. For live version only: http://jagtrycktefelju.nu/fakenews/
 
 ## Feedback
 
