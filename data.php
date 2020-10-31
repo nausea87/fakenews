@@ -72,7 +72,7 @@ $articles = [
     [
         'title' => '2021 to be postponed',
         'published_date' => '2020-10-18 18:49',
-        'content' => 'Due to the global Covid situation world leaders
+        'content' => 'The global Covid situation world leaders
         have now agreed on postponing 2021 until 2022. The news have been
         welcomed worldwide due to the general opinion of 2020 being total
         crap.',
@@ -84,18 +84,11 @@ $articles = [
     ],
 
     [
-        'title' => 'Ashes of gravity',
+        'title' => 'Kubb to be included as an olympic sport',
         'published_date' => '2020-10-18 22:03',
-        'content' => 'Drake Equation finite but unbounded encyclopaedia galactica hearts of the stars cosmos vanquish the 
-        impossible. Made in the interiors of collapsing stars inconspicuous motes of rock and gas laws of physics muse about 
-        circumnavigated of brilliant syntheses. Courage of our questions emerged into consciousness a still more glorious dawn 
-        awaits muse about the ash of stellar alchemy a very small stage in a vast cosmic arena. The only home we/ve ever known 
-        hydrogen atoms the ash of stellar alchemy vastness is bearable only through love gathered by gravity made in the interiors of collapsing stars.
-        Hydrogen atoms dream of the mind/s eye Cambrian explosion the sky calls to us courage of our questions at the edge of forever. 
-        A still more glorious dawn awaits two ghostly white figures in coveralls and helmets are softly dancing Sea of Tranquility from 
-        which we spring Orion/s sword rich in heavy atoms. The ash of stellar alchemy a very small stage in a vast cosmic arena rings of 
-        Uranus extraordinary claims require extraordinary evidence ship of the imagination citizens of distant epochs and billions upon 
-        billions upon billions upon billions upon billions upon billions upon billions.',
+        'content' => 'Due to next summer olympics games Kubb will be included as a sport.
+        This was decided last week by the Olympic Committé in Borås, and the decicion has been
+        highly popular so far. The reason behind the inclusion is yet to be known.',
         'id' => 4,
         'likes' => '25',
         'dislikes' => '44',
@@ -119,9 +112,11 @@ $articles = [
     ],
 
     [
-        'title' => 'Trump attacks Molly, 5',
+        'title' => 'Olof Palme found alive',
         'published_date' => '2020-10-19 06:17',
-        'content' => 'Some people have an ability to write placeholder text. It is an art you/re basically born with. You either have it or you don/t. Look at these words. Are they small words? And he referred to my words - if they/re small, something else must be small. I guarantee you there/s no problem, I guarantee.',
+        'content' => 'This morning it was revealed to the rest of the world that former
+        prime minister of Sweden, Olof Palme, is alive and well. Apparently he was never shot
+        but instead went into hiding after a bet "gone wrong", Palme claims',
         'id' => 5,
         'likes' => '12',
         'dislikes' => '4',
@@ -153,11 +148,3 @@ $articles = [
 
 
 ];
-    
-
-
-
-
-
-// This is the file where you can keep your data arrays such as articles and
-// authors.
