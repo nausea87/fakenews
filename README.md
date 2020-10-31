@@ -2,15 +2,18 @@
 
 1. \$ git clone this repository.
 2. Start a local host on your computer.
-   using the standard 'php -S localhost:8000'.
+   Suggestion: using 'php -S localhost:8000' in your terminal.
+   Don't forget to start the host while you're in the cloned folder.
 3. Open index.php in your browser.
+   (writing 'localhost:8000' in your browser field)
 4. For live version only: http://jagtrycktefelju.nu/fakenews/
+   Note that the live version might not always be up-to-date.
 
 ## Feedback
 
 ### Agnes Binett
 
-TODO:
+- adding own comments after feedback in ().
 
 1. **header.php:9-13**
    Try to keep CSS styling out of HTML. Maybe put it on line 1 in style.css instead?
@@ -19,7 +22,7 @@ TODO:
    You could expand the navbar a little bit so it fills the space between the top line and picture beneath, as well as making the font-size a little bit bigger
 
 3. **style.css:48**
-   Maybe remove text-decoration:underline; since it looks like a link instead of a headline
+   Maybe remove text-decoration:underline; since it looks like a link instead of a headline. (Agreed, and fixed)
 
 4. **index.php:50-52**
    If you add some css-styling to this element in your style.css, like a padding or margin, it could be a little bit easier to read since it’s a little bit dense right now.
@@ -34,7 +37,7 @@ TODO:
 1. Agnes Binett
 2. Joacim Johansson
 
-## Feedback from Joacim
+### Feedback from Joacim
 
 1. Working on Brave, Edge, Firefox.
 2. Consider some changes on logo. The 'n' feels much smaller and the logo could
