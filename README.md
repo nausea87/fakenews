@@ -1,9 +1,9 @@
 # FAKENEWS!
 
-1. \$ git clone this reposity.
-2. Start a local host on your computer
-   'php -S locakhost:8000'
-3. Open index.php in your browser
+1. \$ git clone this repository.
+2. Start a local host on your computer.
+   using 'php -S localhost:8000'.
+3. Open index.php in your browser.
 
 ## Feedback
 
