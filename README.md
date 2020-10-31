@@ -7,7 +7,9 @@
 
 ## Feedback
 
-## Agnes Binett##
+### Agnes Binett
+
+TODO:
 
 1. **header.php:9-13**
    Try to keep CSS styling out of HTML. Maybe put it on line 1 in style.css instead?
@@ -24,9 +26,9 @@
 5. **style.css:95-99**
    In your @media here, try adding some other stuff to make your site more responsive. Like a width for the newsfeed as well as the header so that the edges doesn’t get lost in the mobile view.
 
-6. **you can write the README-file with markdown** (Fixed)
+6. You can write the README-file with markdown (Fixed?)
 
-## Testers
+### Testers
 
 1. Agnes Binett
 2.
