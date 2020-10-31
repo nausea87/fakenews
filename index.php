@@ -18,7 +18,7 @@ require __DIR__ . '/functions.php';
     </h1>
     <hr>
 
-
+    <!---usort to sort articles based on date--->
     <?php usort($articles, 'date_compare'); ?>
     <?php foreach ($articles as $article) : ?>
         <?php
@@ -31,25 +31,19 @@ require __DIR__ . '/functions.php';
         $id = $article['id'];
         $image = $article['img']; ?>
 
-
         <h2 class="title">
             <?= $title; ?>
-
         </h2>
-
-
 
         <article class="content">
             <?= $content; ?>
-
-
             <br><br>
             <img class src="<?= $article['img'] ?>" width="60%">
+            <!---TODO: better way of posting img, this doesn't seem optimal--->
 
             <div class="author">
                 <?= $author; ?>
                 <?= $date; ?>
-
             </div>
 
             <div class="likes">
