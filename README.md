@@ -33,3 +33,11 @@ TODO:
 
 1. Agnes Binett
 2. Joacim Johansson
+
+## Feedback from Joacim
+
+1. Working on Brave, Edge, Firefox.
+2. Consider some changes on logo. The 'n' feels much smaller and the logo could
+   be interpreted as 'Fake n Ews'.
+3. Take a look at more optimal use of margins on header and body.
+   And remember about the margin ratio between top & bottom for header.
