@@ -38,7 +38,7 @@ require __DIR__ . '/functions.php';
         <article class="content">
             <?= $content; ?>
             <br><br>
-            <img class src="<?= $article['img'] ?>" width="60%">
+            <img src="<?= $article['img'] ?>" width="60%">
             <!---TODO: better way of posting img, this doesn't seem optimal--->
 
             <div class="author">
