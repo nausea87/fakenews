@@ -16,7 +16,7 @@
 - adding my own comments/updates after feedback inside ().
 
 1. **header.php:9-13**
-   Try to keep CSS styling out of HTML. Maybe put it on line 1 in style.css instead? (Removes any CSS from header.php)
+   Try to keep CSS styling out of HTML. Maybe put it on line 1 in style.css instead? (Removed CSS attributes from header.php)
 
 2. **style.css:15-19**
    You could expand the navbar a little bit so it fills the space between the top line and picture beneath, as well as making the font-size a little bit bigger (Good advice, will work on this.)
@@ -37,6 +37,7 @@
 
 1. Agnes Binett
 2. Joacim Johansson
+3. Jonathan Larsson
 
 ### Feedback from Joacim
 
