@@ -7,7 +7,7 @@
     <title>Fake News</title>
     <link rel="stylesheet" href="style.css">
 
-
+    <!--- TODO: Create additional CSS files to not clutter one single file--->
 
 
 </head>
