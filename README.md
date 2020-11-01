@@ -46,3 +46,8 @@
    be interpreted as 'Fake n Ews'.
 3. Take a look at more optimal use of margins on header and body.
    And remember about the margin ratio between top & bottom for header.
+
+   ## Notes to self:
+
+   1. Also work on making it mobile friendly. Thought I did first, but tested on phone way too late,
+      and realised it looks like garbage.
