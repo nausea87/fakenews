@@ -1,4 +1,4 @@
-/* TODO's written as comments */
+/* TODO's written as comments and properties cut from final in the bottom */
 
 body {
   background: rgb(2, 0, 36);
@@ -10,69 +10,67 @@ body {
   );
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  margin: 2rem;
 }
-
-.navbar {
-  background-color: rgb(224, 176, 104);
-  position: relative;
-  width: 100%;
-  /* Fix better look and size */
-}
-
-.navbar p {
-  animation: move;
-  animation-duration: 7s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-} /* Fix better animation */
 
 .header {
   background-size: contain;
   background-color: rgb(153, 179, 233);
   justify-content: center;
-  display: flex;
 }
 
 .container {
   display: table;
   justify-content: center;
-  align-items: center;
-  height: 20vh;
   width: 500px;
   border: solid black 2px;
 }
 
 .title {
   margin-left: 2rem;
-
   font-size: x-large;
-}
-
-@keyframes move {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(240px);
-  } /* Improve keyframes */
 }
 
 .content {
   margin-left: 2rem;
   margin-right: 2rem;
-  margin-top: 1rem;
-}
-
-hr.rounded {
-  border-top: 10px solid #bbb;
-  border-radius: 5px;
 }
 
 @media screen and (max-width: 700px) {
   html {
-    font-size: 85%;
+    font-size: 100%;
   }
 } /* More practice on this.
+
+
+
+
+
+
+
+/* hr.rounded {
+  border-top: 10px solid #bbb;
+  border-radius: 5px;
+} */
+
+/* @keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(240px);
+  }  Improve keyframes */
+
+/* .navbar {
+  background-color: rgb(224, 176, 104);
+  position: relative;
+  width: 100%;
+ }
+  Fix better look and size */
+
+/* .navbar p {
+  animation: move;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+} 
+Fix better animation */
