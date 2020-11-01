@@ -6,12 +6,6 @@ require __DIR__ . '/functions.php';
 
 <main class="container">
 
-    <nav class="navbar">
-        <p>
-            <a>BREAKING NEWS: Norge slut på Olja!</a>
-        </p>
-
-    </nav>
     <h1 class="header">
         <img src="/images/header2.png"></img>
         <!---Header made in Figma--->
